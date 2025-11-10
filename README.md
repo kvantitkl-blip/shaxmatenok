@@ -1,2 +1,138 @@
 # shaxmatenok
 Привет. Это мой первый сайт в жизни и я сделал  его связаным с шахматами.
+<html>  
+             <head><title>Шахматы</title></head>
+<script>
+                       setInterval(() => document.querySelector('#date').innerHTML = new Date().getHours() +'.'+ new Date().getMinutes() +'.'+ new Date                           ().getSeconds(), 1000);
+                       </script>
+<script>
+var colorArray = ["#5A9C6E", "#A8BF5A", "#FAC46E", "#FAD5BB", "#F2FEFF"]; // создаем массив с цветами фона
+var i = 0; 
+
+function changeColor(){
+    document.body.style.background = colorArray[i]; 
+    i++;
+    if( i > colorArray.length - 1){
+        i = 0;
+    }
+}
+</script>
+<button onclick="changeColor();">Change background</button>
+
+
+
+
+
+<body><center>
+<h1>Шахматы. Основные фигуры</h1>
+<table width="80%">
+              <tr>                
+                       <td bgcolor="#123ABC" width = "20%"><font color="FFFFFF" size ="6">Время:<a id="date" style="font-size:30px;color:#FFFFFF";font color="FFFFFF" size= "6"></a></td></font>
+                       <td bgcolor=" #123ABC" width = "20%"><a href =history.html><font color="#FFFFFF" size="6">История шахмат</font></td></a>
+                       <td bgcolor=" #123ABC" width = "20%"><a href ="osnovn atud.html"><font color="#FFFFFF" size="6">
+                       <font color ="#FFFFFF" size="6">Основные шахматные этюды</a></font></td>
+                       <td bgcolor=" #123ABC" width = "20%"><a href ="https://lichess.org/"><font color="#FFFFFF" size="6" >Играем в шахматы</a></font></td>          
+             </tr>
+</table >
+<table>
+             <tr>
+                       <td bgcolor="#FFFFFF" width="60" height="60"><a href="ladya.html"><img src="ladya.jpg" width="60" height="60"></a></td>
+                       <td bgcolor="#000000" width="60" height="60"><a href="horse.html"><img src="horse.jpg" width="60" height="60"></a></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"><a href="Oficeer.html"><img src="Oficeer.jpg" width="60" height="60"></a></td>
+                       <td bgcolor="#000000" width="60" height="60"><a href="ferz.html"><img src="ferz.jpg" width="60" height="60"></a></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"><a href="korol.html"><img src="korol.jpg" width="60" height="60"></a></td>
+                       <td bgcolor="#000000" width="60" height="60"><a href="Oficer.html"><img src="Oficer.jpg" width="60" height="60"></a></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"><a href="horsee.html"><img src="horsee.jpg" width="60" height="60"></a></td>
+                       <td bgcolor="#000000" width="60" height="60"><a href="ladyaa.html"><img src="ladyaa.jpg" width="60" height="60"></a></td>
+            </tr>
+             <tr>
+                       <td bgcolor="#000000" width="60" height="60"><a href="Peshka black.html"><img src="Peshka black.jpg" width="60" height="60"></a></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"><a href="Peshka white.html"><img src="Peshka white.jpg" width="60" height="60"></a></td>
+                       <td bgcolor="#000000" width="60" height="60"><a href="Peshka black.html"><img src="Peshka black.jpg" width="60" height="60"></a></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"><a href="Peshka white.html"><img src="Peshka white.jpg" width="60" height="60"></a></td>
+                       <td bgcolor="#000000" width="60" height="60"><a href="Peshka black.html"><img src="Peshka black.jpg" width="60" height="60"></a></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"><a href="Peshka white.html"><img src="Peshka white.jpg" width="60" height="60"></a></td>
+                       <td bgcolor="#000000" width="60" height="60"><a href="Peshka black.html"><img src="Peshka black.jpg" width="60" height="60"></a></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"><a href="Peshka white.html"><img src="Peshka white.jpg" width="60" height="60"></a></td>
+             </tr>
+             <tr>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>        
+            </tr>
+            <tr>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+             </tr>
+             <tr>          
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>     
+             </tr>
+             <tr>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+            </tr>
+            <tr>          
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>     
+             </tr>
+             <tr>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+                       <td bgcolor="#000000" width="60" height="60"></td>
+                       <td bgcolor="#FFFFFF" width="60" height="60"></td>
+            </tr>
+
+
+
+
+
+
+
+
+</table>
+<table width="80%">  
+              <tr>
+                      <td bgcolor ="#123ABC" width="20%"><font color="#FFFFFF" size="5">Создатель сайта<br>
+Студия дизайна "Паровоз"
+</font></td>
+<td bgcolor ="#123ABC" width = "20%"><font color="#FFFFFF" size="5">Контакты: 89999999999</font></td>
+
+
+shaxmatenok.github.io/very cool site site/
+</center>
+</body>
+</html>
